@@ -1,7 +1,7 @@
 {
   "name": "heroku-browse",
   "description": "open your heroku dashboard from the cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "maxbeizer @maxbeizer",
   "bugs": "https://github.com/maxbeizer/heroku-browse/issues",
   "dependencies": {
