@@ -19,35 +19,22 @@ open your heroku dashboard from the cli
 <!-- usage -->
 ```sh-session
 $ npm install -g heroku-browse
-$ oclif-example COMMAND
-running command...
-$ oclif-example (-v|--version|version)
-heroku-browse/0.0.0 darwin-x64 node-v9.11.1
-$ oclif-example --help [COMMAND]
-USAGE
-  $ oclif-example COMMAND
-...
+$ heroku browse
+(opens https://dashboard.heroku.com)
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oclif-example hello`](#oclif-example-hello)
+* [`heroku browse`](#heroku-browse)
 
-## `oclif-example hello`
+## `heroku browse`
 
-Describe the command here
+open https://dashboard.heroku.com
 
 ```
 USAGE
-  $ oclif-example hello
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
+  $ heroku browse
 ```
 
-_See code: [src/commands/hello.js](https://github.com/maxbeizer/heroku-browse/blob/v0.0.0/src/commands/hello.js)_
+_See code: [src/commands/browse.js](https://github.com/maxbeizer/heroku-browse/blob/v0.0.0/src/commands/hello.js)_
 <!-- commandsstop -->
